@@ -1,0 +1,162 @@
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+    background-color: #222222;
+}
+
+p{
+    color: white;
+}
+.left{
+    border-right: 1px solid #616366;
+}
+.right{
+    border-left: 1px solid #616366;
+}
+
+.container{
+	width: 93%;
+}
+
+.lable{
+
+	position: relative;
+	top:3px;
+	/*border-top: 1px solid grey;*/
+}
+
+.bar_chart{
+  border-radius: 10px;
+}
+
+.school{
+	position: relative;
+	top:3px;
+	/*border-top: 1px solid grey;*/
+}
+
+.timeline{
+}
+
+.pie_chart{
+	width: 60%;
+    margin: auto;
+}
+
+.items{
+	text-align: center;
+	top:20%;
+}
+
+.alert{
+	margin-right: 20px;
+	margin-left: 20px;
+	border-width: 3px;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+#tooltip {
+    position: relative;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+#tooltip.hidden {
+    display: none;
+}
+#tooltip p {
+    margin: 0;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+}
+#tooltip_right {
+    position: relative;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+#tooltip_right.hidden {
+    display: none;
+}
+#tooltip_right p {
+    margin: 0;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.btn-group{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+text{
+  font-family: Arial;
+}
+
+#myChart{
+    width: 40%;
+    margin: auto;
+}
+
+.axis path,
+.axis line{
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+ 
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+    color: white;
+}
+
+.area {
+  fill: steelblue;
+  clip-path: url(#clip);
+}
+
+
+.domain{
+	fill:black;
+	opacity: 0.2;
+}
+#selection .tick line {
+  stroke: grey;
+  stroke-width:2px;
+}
+
+text{
+    color:white;
+}
