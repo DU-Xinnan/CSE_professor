@@ -10,10 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "chart.js": "^2.4.0",
+    "child_process": "^1.0.2",
     "d3": "^4.3.0",
+    "fs": "0.0.1-security",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.2"
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.2",
+    "xmlhttprequest": "^1.8.0"
   }
 }

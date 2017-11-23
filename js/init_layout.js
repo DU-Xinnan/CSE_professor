@@ -13,7 +13,7 @@ var init_layout = function(){
 	$('.pie_chart').css('height',height*0.39);
 	$('#University_logo').css('height',height*0.3).css('cursor','pointer');
 	$('#University_logo').css('width',height*0.3*1.1);
-	$('#University_logo').attr('src',"img/GT.png");
+	$('#University_logo').attr('src',"img/GT.jpg");
 	var logo_padding = ($('.school').width() - height*0.3*1.1)/2;
 	$('#University_logo').css('margin-left', logo_padding);
 	var pie_margin = ($('.pie_chart').width() - $('#pie').width())/2;
